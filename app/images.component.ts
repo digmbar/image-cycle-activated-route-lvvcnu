@@ -5,7 +5,7 @@ import { map } from 'rxjs/operators';
 @Component({
   selector: 'hello',
   template: `
-    <div>{{ activeImage }}</div>
+    <div><img src="{{ activeImage }}"></div>
     <button (click)="prev()">Prev</button>
     <button (click)="next()">Next</button>
   `,
